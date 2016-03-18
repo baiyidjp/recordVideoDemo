@@ -15,6 +15,7 @@
 		A2E89AD81C868694004C060A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E89AD61C868694004C060A /* LaunchScreen.storyboard */; };
 		A2E89AE31C868694004C060A /* recordVideoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E89AE21C868694004C060A /* recordVideoDemoTests.m */; };
 		A2E89AEE1C868694004C060A /* recordVideoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E89AED1C868694004C060A /* recordVideoDemoUITests.m */; };
+		A2E89AFD1C868729004C060A /* DDRecordVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E89AFC1C868729004C060A /* DDRecordVideo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A2E89AE91C868694004C060A /* recordVideoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recordVideoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E89AED1C868694004C060A /* recordVideoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recordVideoDemoUITests.m; sourceTree = "<group>"; };
 		A2E89AEF1C868694004C060A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E89AFB1C868729004C060A /* DDRecordVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRecordVideo.h; sourceTree = "<group>"; };
+		A2E89AFC1C868729004C060A /* DDRecordVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRecordVideo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				A2E89AD61C868694004C060A /* LaunchScreen.storyboard */,
 				A2E89AD91C868694004C060A /* Info.plist */,
 				A2E89AC81C868694004C060A /* Supporting Files */,
+				A2E89AFB1C868729004C060A /* DDRecordVideo.h */,
+				A2E89AFC1C868729004C060A /* DDRecordVideo.m */,
 			);
 			path = recordVideoDemo;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E89AFD1C868729004C060A /* DDRecordVideo.m in Sources */,
 				A2E89AD01C868694004C060A /* ViewController.m in Sources */,
 				A2E89ACD1C868694004C060A /* AppDelegate.m in Sources */,
 				A2E89ACA1C868694004C060A /* main.m in Sources */,
